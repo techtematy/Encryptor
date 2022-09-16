@@ -1,4 +1,4 @@
 # Encryptor
 Rsa encryption easy to use
-#License
+# License
 MIT license - do whatever you want
