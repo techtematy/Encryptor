@@ -19,7 +19,6 @@ To encrypt your data you just have to call function:
 ```cs
 RSAParameters somePublicKey;
 ```
-
 ```cs
 byte[] dataToEncrypt = Encoding.ASCII.GetBytes("test message");
 byte[] encryptedData = rsaEncryptorInstance.encrypt(dataToEncrypt, somePublicKey);
