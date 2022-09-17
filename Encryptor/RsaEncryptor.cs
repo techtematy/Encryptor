@@ -78,7 +78,6 @@ namespace Encryptor
             using (RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(keyLenght))
             {
                 rsa.ImportParameters(privateRsaKey);
-                
                 return rsa.Decrypt(_encryptedMessage, false);
             }
         }
